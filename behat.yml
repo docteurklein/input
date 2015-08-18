@@ -1,0 +1,9 @@
+default:
+    autoload:
+        Context: %paths.base%/features
+    suites:
+        default:
+            contexts: [Context\Base]
+    extensions:
+        RMiller\BehatSpec\BehatExtension:
+            path: vendor/bin/phpspec

@@ -1,0 +1,24 @@
+{
+    "name": "docteurklien/input",
+    "description": "a library for handling inputs (forms)",
+    "require-dev": {
+        "behat/behat": "^3.0",
+        "bossa/phpspec2-expect": "^1.0",
+        "rmiller/behat-spec": "^0.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Klein Florian",
+            "email": "florian.klein@free.fr"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "^2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Knp": "src"
+        }
+    }
+}
